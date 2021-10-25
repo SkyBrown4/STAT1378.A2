@@ -1,0 +1,16 @@
+Package: STAT1378.A2
+Title: Calculates customer service transition times at a bank
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Skyler",
+           family = "Brown",
+           role = c("aut", "cre"),
+           email = "skyler.brown@students.mq.edu.au")
+Description: Feed customers through a multiserver queue system to determine each customer's transition times.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
