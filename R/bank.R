@@ -1,12 +1,11 @@
-#' Prices of 50,000 round cut diamonds.
+#' Timing of customers in a bank.
 #'
-#' A dataset containing the prices and other attributes of almost 54,000
-#' banks.
+#' A dataset containing the time various customers take at the bank
 #'
 #' @format A data frame with 53940 rows and 10 variables:
 #' \describe{
-#'   \item{arrival_time}{price, in US dollars}
-#'   \item{service_time}{weight of the diamond, in carats}
+#'   \item{arrival_time}{time, in minutes}
+#'   \item{service_time}{length of service, in minutes}
 #'   ...
 #' }
 "bank"

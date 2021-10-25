@@ -1,8 +1,8 @@
 #' Customer Service Times at a Bank
 #'
-#' @param Arrivals text
-#' @param ServiceTimes text
-#' @param NumServers text
+#' @param Arrivals The arrival times of each customer
+#' @param ServiceTimes The ammount of time it will take to serve each customer
+#' @param NumServers The number of servers that exist
 #'
 #' @return dataframe is returned
 #' @export
